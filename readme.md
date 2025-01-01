@@ -1,4 +1,4 @@
-#Getting started
+# Getting started
 
 ```sh 
 nix shell nixpkgs#home-manager nixpkgs#gh --command sh -c "\
