@@ -18,7 +18,6 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
-    pkgs.neofetch
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
@@ -77,6 +76,7 @@
 
   programs.starship.enable = true;
   programs.zsh.enable = true;
+  programs.lazygit.enable = true;
   programs.oh-my-posh = {
       enable = true;
       enableZshIntegration = true;
